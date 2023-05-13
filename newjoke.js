@@ -1,0 +1,60 @@
+
+const jokes=[`"My mom died when we couldn’t remember her blood type. As she died, she kept telling us to “be positive,” but it’s hard `,
+            `" Why is it that if you donate a kidney, people love you. But if you donate five kidneys, they call the police."`,
+            `"Dark humor is like food. Not everyone gets it." `,`"You don’t need a parachute to go skydiving. You need a parachute to go skydiving twice."`,
+            `"My grief counselor died. He was so good, I don’t even care".`,`“I’m sorry” and “I apologize” mean the same thing. Except at a funeral.`,
+            `Son: “Dad, did you get the results of the DNA test back?” Dad: “Call me George.”`,`"What is the worst combination of illnesses? Alzheimer’s and diarrhea. You’re running but can’t remember where."`,
+            `"If you were born in September, it's pretty safe to assume that your parents started their new year with a bang."`,
+            `"I was drinking a martini and the waitress screamed “does anyone know CPR?” I yelled, “I know the entire alphabet” and we all laughed and laughed. Well, except for one person."`,
+            `"I visited my new friend in his apartment. He told me to make myself at home. So I threw him out. I hate having visitors."`,
+            `"As I get older, I remember all the people I lost along the way. Maybe my budding career as a tour guide was not the right choice."`,
+            `"Today, I asked my phone “Siri, why am I still single?” and it activated the front camera."`,
+            `"Today on a drive, I decided to go visit my childhood home. I asked the people living there if I could come inside because I was feeling nostalgic, but they refused and slammed the door in my face. My parents are the worst."`,
+            `"I just came across my wife’s Tinder profile and I’m so angry about her lies. She is not “fun to be around.”"`,
+            `"I just read that someone in New York gets stabbed every 52 seconds. Poor guy."`,
+            `"The doctor gave me one year to live, so I shot him with my gun. The judge gave me 15 years. Problem solved."`,
+            `"My senior relatives liked to tease me at weddings, saying things like, “You’ll be next!” They stopped once I started doing the same to them at funerals."`,
+            `"My husband and I have reached the difficult decision that we do not want children. If anybody does, please just send me your contact details and we can drop them off tomorrow."`,
+            `"My girlfriend dumped me, so I stole her wheelchair. Guess who came crawling back?"`,
+
+            `My friend thinks he is smart. He told me an onion is the only food that makes you cry, so I threw a coconut at his face.`,
+            `Q: Is Google male or female? A: Female, because it doesn't let you finish a sentence before making a suggestion.`,
+            `Teacher: "Kids, what does the chicken give you?" Student: "Meat!" Teacher: "Very good! Now what does the pig give you?" Student: "Bacon!" Teacher: "Great! And what does the fat cow give you?" Student: "Homework!"`,
+            `Roses are red. Your blood is too. You look like a monkey And belong in a zoo. Do not worry, I'll be there too. Not in the cage, But laughing at you.`,
+            `Whenever your ex says, "You'll never find someone like me," the answer to that is, "That's the point."`,
+            `Girlfriend: "Am I pretty or ugly?" Boyfriend: "You're both." Girlfriend: "What do you mean?" Boyfriend: "You're pretty ugly."`,
+            `Light travels faster than sound. This is why some people appear bright until you hear them speak.`,
+            `Kid 1: "Hey, I bet you're still a virgin." Kid 2: "Yeah, I was a virgin until last night ." Kid 1: "As if." Kid 2: "Yeah, just ask your sister." Kid 1: "I don't have a sister." Kid 2: "You will in about nine months."`,
+            `An old teacher asked her student, "If I say, 'I am beautiful,' which tense is that?" The student replied, "It is obviously past."`,
+            `How is Christmas like your job? You do all the work and the fat guy in the suit gets all the credit.`,
+            `An organization is like a tree full of monkeys, all on different limbs at different levels. The monkeys on top look down and see a tree full of smiling faces. The monkeys on the bottom look up and see nothing but assholes.`,
+            `A teacher asked her students to use the word "beans" in a sentence. "My father grows beans," said one girl. "My mother cooks beans," said a boy. A third student spoke up, "We are all human beans."`,
+            `A boy asks his father, "Dad, are bugs good to eat?" "That's disgusting. Don't talk about things like that over dinner," the dad replies. After dinner the father asks, "Now, son, what did you want to ask me?" "Oh, nothing," the boy says. "There was a bug in your soup, but now it’s gone."`,
+            `Maria went home happy, telling her mother about how she earned $20 by climbing a tree. Her mom responded, "Maria, they just wanted to see your panties!" Maria replied, "See Mom, I was smart, I took them off!"`,
+            `A boy says to a girl, "So, sex at my place?" "Yeah!" "Okay, but I sleep in a bunk bed with my younger brother, and he thinks we're making sandwiches, so we have to have a code. Cheese means faster and tomato means harder, okay?" Later on the girl is yelling, "Cheese cheese, tomato tomato!" The younger brother says, "Stop making sandwiches! You're getting mayo all over my bed!"`,
+            `Little Sally came home from school with a smile on her face, and told her mother, "Frankie Brown showed me his weenie today at the playground!" Before the mother could raise a concern, Sally went on to say, "It reminded me of a peanut." Relaxing with a hidden smile, Sally's mom asked, "Really small, was it?" Sally replied, "No, salty." Mom fainted.`,
+            `Do not be racist; be like Mario. He's an Italian plumber, who was made by the Japanese, speaks English, looks like a Mexican, jumps like a black man, and grabs coins like a Jew!`,
+            `Yo momma is so fat, when she sat on an iPod, she made the iPad!`,
+            `Your momma is so stupid she put airbags on her computer in case it crashed.`,
+            `Yo momma so fat when she registered for MySpace there was no space left.`,
+            `Mother: "Sweetie, make a Christmas wish." Girl: "I wish that Santa will send some clothes to those naked girls in papa's computer."`,
+            `Q: What do computers eat for a snack? A: Microchips!`,
+            `I decided to make my password "incorrect" because if I type it in wrong, my computer will remind me, "Your password is incorrect."`,
+            `Q: How can you tell if a blonde used a computer? A: There's Wite-Out all over the screen.`,
+            `What does an air conditioner have in common with a computer? They both lose efficiency as soon as you open windows.`,
+            `Q: What did the spider do on the computer?A: Made a website!`,
+            `Me: Siri, where is the best place to hide a body? Siri: The second page of a Google search.`,
+            `Q: Why shouldn't Facebook have paid $1 billion dollars for Instagram? A: They could've downloaded it for free!`,
+            `Q: What did the computer do at lunchtime? A: Had a byte!`,
+            `A science teacher tells his class, "Oxygen is a must for breathing and life. It was discovered in 1773." A blonde student responds, "Thank God I was born after 1773! Otherwise I would have died without it."`,
+            `Scientists have proven that there are two things in the air that have been known to cause women to get pregnant: their legs.`,
+            `Q: Why can't you trust an atom? A: Because they make up everything.`,
+            `Q: Why couldn't the leopard play hide and seek? A: Because he was always spotted.`
+
+
+        ];
+
+let chance=Math.floor(Math.random(0)*jokes.length);
+let jokeBox=document.getElementById("container");
+    jokeBox.innerHTML=jokes[chance];
+    console.log(jokes[chance]);
