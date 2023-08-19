@@ -1,40 +1,77 @@
 body{
     display: flex;
     flex-direction: column;
+    height: 100%;
+    margin-bottom: 100px;
+    margin-top: 0px;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    background-image: url("Images/bg1-transformed.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: rgb(255, 128, 0);
 
 }
 #container{
     display: flex;
-    border: solid 1px rgb(68, 12, 12);
+    /* border: solid 1px rgb(68, 12, 12); */
     border-radius: 5px;
-    background-color: rgba(0, 255, 255, 0.56);
+    /* background-color: rgba(0, 255, 255, 0.56); */
+    font-family: 'Permanent Marker', cursive;
+    font-size: 25px;
     height: 250px;
     width: 400px;
     padding: 15px;
     text-align: center;
     align-items: center;
     justify-content: center;
-    font-weight: bold;
-    color: rgb(62, 10, 10);
-    margin: 10px auto;
-    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.564);
+    /* font-weight: bold; */
+    color: rgb(48, 1, 1);
+    margin: 110px auto;
+    user-select: none;
+    /* box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.564); */
 }
 
 .refresh-button{
-    border: solid 1px;
-    margin: 10px auto;
+    border: none;
+    height: 30px;
+    margin: 40px auto;
     cursor: pointer;
-    background-color: blue;
-    color: aliceblue;
-    padding: 10px 20px;
+    background-color: rgb(144, 73, 6);
+    color: rgb(255, 255, 255);
+    /* padding: 10px 20px; */
     border-radius: 5px;
     width: 90px;
 }
 .refresh-button:hover{
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.53);
+    font-size: 15px;
 }
 .refresh-button:active{
-    background-color: rgba(0, 0, 255, 0.655);
+    background-color: rgba(122, 60, 12, 0.655);
+}
+
+.navbar{
+    height: 25px;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgba(0, 0, 0, 0.477);
+    display: flex;
+
+}
+.navbar div{
+    font-family: roboto;
+    color: rgba(255, 255, 255, 0.419);
+    margin: 0px 10px;
+    padding: 5px;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+
+.navbar:hover{
+    background-color: rgba(0, 0, 0, 0.551);
+}
+.navbar div:active{
+    color: white;
 }
